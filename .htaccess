@@ -1,0 +1,14 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htacces|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+Rewrite Rule strona-glowna index.html
+Rewrite Rule osiagniecia-i-CV CV.html
+Rewrite Rule o-mnie o-mnie.html
+Rewrite Rule nowe-informacje news.html
+Rewrite Rule moja-oferta oferta.html
+Rewrite Rule moje-projekty-i-produkcje Produkcje.html
+Rewrite Rule kontakt kontakt.html

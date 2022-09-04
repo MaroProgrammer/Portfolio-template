@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(105,105,105);
+}
+#site {
+  width:1000px;
+  margin-left: auto;
+  margin-right: auto;
+  color:rgb(255,255,255);
+
+}
+#menu {
+  height: 40px;
+  background-color: rgb(0,0,0);
+  padding:5px;
+}
+.menu {
+  margin-top: 3px;
+  float: left;
+  font-size: 20px;
+  height: auto;
+  background-color: rgb(50,100,200);
+  padding:5px;
+  width: 143.5px;
+  text-align: center;
+  margin-left: 10px;
+}
+.menu:hover {
+  background-color: rgb(75,125,200);
+}
+a.buttons {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+
+}
+#footer {
+  margin-top: 10px;
+  background-color: rgb(0,0,0);
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+#text {
+  min-height: 500px;
+  background-color:rgb(255, 255, 255);
+  margin: 10px;
+  font-size: 20px;
+  width: 980px;
+  color:rgb(0, 0, 0);
+  padding:5px;
+}
